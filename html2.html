@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Tenis - Catálogo</title>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../assets/logo.png" width="40" alt="Sport Runner" />
+        <h1>KICK<span>STYLE</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="html1.html">Inicio</a></li>
+          <li>
+            <a class="active" href="html2.html">Catálogo</a>
+          </li>
+          <li>
+            <a href="Carrito.html">Carrito</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2 class="section-title">Nuestro Catálogo</h2>
+
+      <div class="filter-buttons">
+        <button class="filter-btn" onclick="filterCatalog('damas', event)">
+          Damas
+        </button>
+        <button class="filter-btn" onclick="filterCatalog('caballeros', event)">
+          Caballeros
+        </button>
+        <button class="filter-btn" onclick="filterCatalog('ninos', event)">
+          Niños
+        </button>
+        <button class="filter-btn" onclick="filterCatalog('ninas', event)">
+          Niñas
+        </button>
+      </div>
+
+      <div class="grid-container" id="catalogGrid">
+        <div class="card product-item caballeros">
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>red</h3>
+            <p>caballeros</p>
+            <p class="price">$1,000</p>
+          </div>
+        </div>
+
+        <div class="card product-item damas">
+          <div class="card-img">
+            <img src="../assets/imagen(2).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>estrella</h3>
+            <p>Damas</p>
+            <p class="price">$1,000</p>
+          </div>
+        </div>
+
+        <div class="card product-item ninos">
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>mini rocket</h3>
+            <p>Niños</p>
+            <p class="price">$850</p>
+          </div>
+        </div>
+
+        <div class="card product-item damas">
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>estrella</h3>
+            <p>Damas</p>
+            <p class="price">$1,200</p>
+          </div>
+        </div>
+
+        <div class="card product-item damas">
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>estrella</h3>
+            <p>Damas</p>
+            <p class="price">$1,400</p>
+          </div>
+        </div>
+
+        <div class="card product-item damas">
+          <div class="card-img">
+            <img src="../assets/imagen(5).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>estrella</h3>
+            <p>Damas</p>
+            <p class="price">$1,100</p>
+          </div>
+        </div>
+
+        <div class="card product-item ninas">
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>aurora</h3>
+            <p>Niñas</p>
+            <p class="price">$1,050</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>aurora</h3>
+            <p>Niñas</p>
+            <p class="price">$1,050</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>aurora</h3>
+            <p>Niñas</p>
+            <p class="price">$1,050</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>aurora</h3>
+            <p>Niñas</p>
+            <p class="price">$1,050</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>aurora</h3>
+            <p>Niñas</p>
+            <p class="price">$1,050</p>
+          </div>
+          <div class="card-img">
+            <img src="../assets/imagen(1).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>aurora</h3>
+            <p>Niñas</p>
+            <p class="price">$1,050</p>
+          </div>
+        </div>
+
+        <div class="card product-item caballeros">
+          <div class="card-img">
+            <img src="../assets/imagen(3).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>relámpago</h3>
+            <p>Caballeros</p>
+            <p class="price">$1,200</p>
+          </div>
+        </div>
+
+        <div class="card product-item damas">
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>marfil</h3>
+            <p>Damas</p>
+            <p class="price">$1,350</p>
+          </div>
+        </div>
+
+        <div class="card product-item caballeros">
+          <div class="card-img">
+            <img src="../assets/imagen(4).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>puma</h3>
+            <p>Caballeros</p>
+            <p class="price">$1,400</p>
+          </div>
+        </div>
+
+        <div class="card product-item damas">
+          <div class="card-img">
+            <img src="../assets/imagen(5).jpg" alt="" />
+          </div>
+          <div class="card-info">
+            <h3>oliva</h3>
+            <p>Damas</p>
+            <p class="price">$1,250</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a href="#" target="_blank">Icono y enlace Facebook</a>
+        <a href="#" target="_blank">Icono y enlace Instagram</a>
+        <a href="#" target="_blank">Icono y enlace TikTok</a>
+      </div>
+      <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../script/index.js"></script>
+  </body>
+</html>

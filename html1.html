@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda tenis- Inicio</title>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../assets/logo.png" width="40" alt="Sport Runner" />
+
+        <h1>KICK<span>STYLE</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="html1.html">Inicio</a></li>
+          <li>
+            <a href="html2.html">Catálogo</a>
+          </li>
+          <li>
+            <a href="Carrito.html">Carrito</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="carousel-container">
+          <button class="carousel-btn btn-prev" onclick="moveCarousel(-1)">
+            &#10094;
+          </button>
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <img src="../assets/imagen(1).jpg" alt="Imagen 1" />
+              <div class="carousel-content">
+                <h2>Nombre del modello</h2>
+                <p>Descripción.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="../assets/imagen(2).jpg" />
+              <div class="carousel-content">
+                <h2>Nombre del modello 2</h2>
+                <p>Descripción 2.</p>
+              </div>
+            </div>
+            <div class="carousel-slide">
+              <img src="../assets/imagen(3).jpg" />
+              <div class="carousel-content">
+                <h2>Nombre del modello 3</h2>
+                <p>Descripción 3.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-btn btn-next" onclick="moveCarousel(1)">
+            &#10095;
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Modelos Más Vendidos</h2>
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 1</div>
+            <div class="card-img">
+              <img src="../assets/imagen(3).jpg" alt="Classic Street Brown" />
+            </div>
+            <div class="card-info">
+              <h3>nike 420</h3>
+              <p class="price">$1,400</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 2</div>
+            <div class="card-img">
+              <img src="../assets/imagen(6).jpg" alt="Sport Runner" />
+            </div>
+            <div class="card-info">
+              <h3>adidas swift</h3>
+              <p class="price">$1,200</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 3</div>
+            <div class="card-img">
+              <img src="../assets/imagen(7).jpg" alt="Urban Classic" />
+            </div>
+            <div class="card-info">
+              <h3>puma retro</h3>
+              <p class="price">$1,750</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 4</div>
+            <div class="card-img">
+              <img src="../assets/imagen(5).jpg" alt="Trail Master" />
+            </div>
+            <div class="card-info">
+              <h3>reebok hike</h3>
+              <p class="price">$1,950</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 5</div>
+            <div class="card-img">
+              <img src="../assets/imagen(2).jpg" alt="Light Runner" />
+            </div>
+            <div class="card-info">
+              <h3>asics flex</h3>
+              <p class="price">$1,300</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 6</div>
+            <div class="card-img">
+              <img src="../assets/imagen(4).jpg" alt="Street Pro" />
+            </div>
+            <div class="card-info">
+              <h3>newbalance 574</h3>
+              <p class="price">$1,600</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 1</div>
+            <div class="card-img">
+              <img src="../assets/imagen(4).jpg" alt="Classic Street Brown" />
+            </div>
+            <div class="card-info">
+              <h3>nike 280</h3>
+              <p class="price">$2,000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag">Top 1</div>
+            <div class="card-img">
+              <img src="../assets/imagen(5).jpg" alt="Classic Street Brown" />
+            </div>
+            <div class="card-info">
+              <h3>nike 87</h3>
+              <p class="price">$1,600</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Ofertas Imperdibles</h2>
+        <div class="grid-container">
+          <div class="card">
+            <div class="card-tag" style="background: #20bf6b">-30%</div>
+            <div class="card-img">
+              <img src="../assets/imagen(4).jpg" alt="Runner Blue Pro" />
+            </div>
+            <div class="card-info">
+              <h3>nike 420</h3>
+              <p class="price"><span class="old-price">$2,000</span>$1,400</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Nuestras Sucursales</h2>
+        <div class="sucursales-container">
+          <div class="sucursal-card">
+            <h3>Sucursal Centro</h3>
+            <p>Plaza Mayor 123, Centro</p>
+            <p>Tel: 55-1234-5678</p>
+          </div>
+          <div class="sucursal-card">
+            <h3>Sucursal Lomas</h3>
+            <p>Calle Verde 78, Lomas de San Ángel</p>
+            <p>Tel: 55-3344-5566</p>
+          </div>
+          <div class="sucursal-card">
+            <h3>Sucursal Playa</h3>
+            <p>Malecón 200, Zona Costera</p>
+            <p>Tel: 55-9988-7766</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook</a
+        >
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Instagram</a
+        >
+        <a
+          href="https://www.tiktok.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >TikTok</a
+        >
+      </div>
+      <p>Examen Unidad 3 Tópicos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../script/index.js"></script>
+  </body>
+</html>
